@@ -1,0 +1,5 @@
+peso = int(input('ingrese su peso en kg: \n'))
+altura = float(input('ingrese su estatura en metros: \n'))
+imc1 = peso/(altura**2)
+imc= round(imc1,2)
+print(f'imc es {imc}')

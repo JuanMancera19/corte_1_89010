@@ -1,0 +1,4 @@
+a= float(input('ingrese el dato 1: \n'))
+b= float(input('ingrese el dato 2: \n'))
+print('el residuo de la divicion es: ',a%b)
+print('el cosiente de la divicion es: ',a//b)

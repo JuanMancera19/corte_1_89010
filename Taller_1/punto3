@@ -1,0 +1,3 @@
+pp= int(input('ingrese el valor del producto: \n'))
+piva= pp+(pp*0.19)
+print(f'el valor del producto es {pp}, el valor del producto mas el iva es: {piva}')

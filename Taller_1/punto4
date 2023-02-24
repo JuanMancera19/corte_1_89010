@@ -1,0 +1,5 @@
+distancia = int(input('ingrese la distancia recorrida en km: \n'))
+conbustible= int(input(' igrese el valor del conbustible: \n'))
+promedio = int(input('ingrese el costo promedio del conbustible: \n'))
+r= ((distancia*conbustible)/100)*promedio
+print(f'el costo anual del conbustible es {r}')
